@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // Set your brand colors
+$primary: #707070;
 $purple: #8A4D76;
 $pink: #FA7C91;
 $brown: #757763;
@@ -36,3 +37,4 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+
