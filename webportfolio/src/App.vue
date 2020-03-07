@@ -1,18 +1,23 @@
 <template>
-  <section class="section" id="app">
-    <nav class="navbar" id="nav">
-      <div class="nav-item">
-        <router-link to="/">Home</router-link> |
-      </div>
-      <div class="nav-tem">
-        <router-link to="/contact">Contact</router-link>
-      </div>
-    </nav>
+  <main class="section">
+    <MainNavigation />
     <router-view />
-  </section>
+  </main>
 </template>
+
+<script>
+import MainNavigation from "@/components/MainNavigation.vue";
+
+export default {
+  name: "Home",
+  components: {
+    MainNavigation
+  }
+};
+</script>
+
 
 <style lang="scss">
 @import "~bulma/css/bulma.css";
-@import "./assets/main.scss";
+@import "./assets/globalStyleSheet.scss";
 </style>
