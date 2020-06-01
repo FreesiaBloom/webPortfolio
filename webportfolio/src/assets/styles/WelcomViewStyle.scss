@@ -1,0 +1,21 @@
+/* WELCOME VIEW */
+.welcome-view {
+    .titles {
+      margin: 4rem 0;
+  
+      p.subtitle {
+        font-size: 1.5rem;
+      }
+    }
+    
+    .image-block {
+      margin-bottom: 4rem;
+  
+      .image-welcome-view {
+        height: 200px;
+        width: auto;
+        border-radius: 100%;
+      }
+    }
+  }
+  
