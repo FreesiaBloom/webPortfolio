@@ -17,6 +17,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~bulma/css/bulma.css";
 @import "./assets/styles/main.scss";
 </style>
